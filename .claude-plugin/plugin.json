@@ -1,5 +1,5 @@
 {
-  "name": "claude-chat-log",
+  "name": "chat-log-plugin",
   "version": "1.0.0",
   "description": "Claude Code とのセッション会話をMarkdownファイルに保存",
   "author": { "name": "mkent" },

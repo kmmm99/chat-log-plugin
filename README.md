@@ -1,4 +1,4 @@
-# claude-chat-log
+# chat-log-plugin
 
 Claude Code とのセッション会話をMarkdownファイルに保存するプラグイン。
 
@@ -78,7 +78,7 @@ Claude Codeで以下のコマンドを実行:
 ## ファイル構造
 
 ```
-claude-chat-log/
+chat-log-plugin/
 ├── .claude-plugin/
 │   └── plugin.json
 ├── commands/
