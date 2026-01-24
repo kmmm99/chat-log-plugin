@@ -5,14 +5,14 @@ Claude Code とのセッション会話をMarkdownファイルに保存するプ
 ## インストール
 
 ```bash
-/plugins install github:mkent/claude-chat-log
+/plugins install github:kmmm99/chat-log-plugin
 ```
 
 または、ローカルインストール:
 
 ```bash
 # ~/.claude/plugins/local/ にクローン
-git clone https://github.com/mkent/claude-chat-log ~/.claude/plugins/local/claude-chat-log
+git clone https://github.com/kmmm99/chat-log-plugin ~/.claude/plugins/local/chat-log-plugin
 ```
 
 ## 使用方法

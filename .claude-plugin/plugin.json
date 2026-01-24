@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Claude Code とのセッション会話をMarkdownファイルに保存",
   "author": { "name": "mkent" },
-  "repository": "https://github.com/mkent/claude-chat-log",
+  "repository": "https://github.com/kmmm99/chat-log-plugin",
   "license": "MIT",
   "keywords": ["chat-log", "conversation", "markdown", "session"]
 }
