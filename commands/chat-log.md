@@ -7,14 +7,21 @@
 ## 保存先
 
 - **ベースディレクトリ**: `~/Documents/claude-outputs/chat-logs/`
-- **チャットログ**: `{ベースディレクトリ}/chat_yyyymmdd_HHmm.md`
+- **チャットログ**: `~/Documents/claude-outputs/chat-logs/chat_yyyymmdd_HHmm.md`
+- **過去月退避先**: `~/Documents/claude-outputs/chat-logs/old`
 
 ## 実行手順
 
 1. 本日の日付と現在時刻を取得（`yyyy-mm-dd_HHmm`）
 2. `~/Documents/claude-outputs/chat-logs/` ディレクトリを作成（存在しない場合）
-3. ファイル名を `chat_yyyymmdd_HHmm.md` として決定
-4. このチャットセッションの会話内容を以下のフォーマットで記録
+3. 月次アーカイブ処理
+   - 当月（`yyyymm`）を算出
+   - ベースディレクトリ直下の `chat_*.md` ファイルを確認
+   - 当月以外のファイルが存在する場合：
+     - `old/` ディレクトリを作成（存在しない場合）
+     - 当月以外の `chat_*.md` ファイルを `old/` に移動（ファイル名は維持）
+4. ファイル名を `chat_yyyymmdd_HHmm.md` として決定
+5. このチャットセッションの会話内容を以下のフォーマットで記録
 
 ## 記載フォーマット
 
@@ -66,3 +73,4 @@
 - 機密情報（APIキー、パスワード等）が含まれる場合は `[REDACTED]` に置換する
 - コードブロックは適切にマークダウン記法で囲む
 - ファイル名の重複を避けるため、時刻を含める
+- チャットログは常にベースディレクトリに「当月分のみ」置き、過去月は `old/` に自動退避される
