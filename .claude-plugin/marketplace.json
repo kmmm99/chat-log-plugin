@@ -1,0 +1,28 @@
+{
+  "name": "chat-log-plugin",
+  "owner": {
+    "name": "mkent"
+  },
+  "metadata": {
+    "description": "Claude Code とのセッション会話をMarkdownファイルに保存するプラグイン",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "chat-log-plugin",
+      "source": {
+        "source": "github",
+        "repo": "kmmm99/chat-log-plugin"
+      },
+      "description": "Claude Code とのセッション会話をMarkdownファイルに保存。機密情報の自動マスキング機能付き",
+      "version": "1.0.0",
+      "author": {
+        "name": "mkent"
+      },
+      "repository": "https://github.com/kmmm99/chat-log-plugin",
+      "license": "MIT",
+      "keywords": ["chat-log", "conversation", "markdown", "session"],
+      "category": "productivity"
+    }
+  ]
+}
