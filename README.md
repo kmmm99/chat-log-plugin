@@ -36,8 +36,8 @@ Claude Codeで以下のコマンドを実行します。
 
 コマンド実行時に、過去月のチャットログを自動的に `old/` フォルダに退避します。
 
-- **保存先**: `~/Documents/claude-outputs/chat-logs/`
-- **過去月退避先**: `~/Documents/claude-outputs/chat-logs/old/`
+- **保存先**: `.claude/chat-log/`
+- **過去月退避先**: `.claude/chat-log/old/`
 
 ### 動作
 
@@ -90,9 +90,9 @@ Claude Codeで以下のコマンドを実行します。
 保存先ディレクトリを変更する場合は、`commands/chat-log.md` 内の以下の行を編集:
 
 ```markdown
-- **ベースディレクトリ**: `~/Documents/claude-outputs/chat-logs/`
-- **チャットログ**: `~/Documents/claude-outputs/chat-logs/chat_yyyymmdd_HHmm.md`
-- **過去月退避先**: `~/Documents/claude-outputs/chat-logs/old`
+- **ベースディレクトリ**: `.claude/chat-log/`
+- **チャットログ**: `.claude/chat-log/chat_yyyymmdd_HHmm.md`
+- **過去月退避先**: `.claude/chat-log/old/`
 ```
 
 ## ファイル構造
@@ -127,4 +127,4 @@ MIT License
 ---
 
 作成日: 2025-01-25  
-最終更新日: 2025-01-25  
+最終更新日: 2026-02-03  
