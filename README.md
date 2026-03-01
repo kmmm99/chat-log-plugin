@@ -1,8 +1,8 @@
 > [!IMPORTANT]
-> このリポジトリは `kmmm99/.claude` に移植済みです。最新配置先: `.claude/plugins/marketplace/chat-log-plugin`
-> https://github.com/kmmm99/.claude/tree/main/.claude/plugins/marketplace/chat-log-plugin
+> このリポジトリは `kmmm99/.claude` に移植済みです。最新配置先: `plugins/marketplace/chat-log-plugin`
+> https://github.com/kmmm99/.claude/tree/main/plugins/marketplace/chat-log-plugin
 >
-> 既存ユーザー互換のため、このリポジトリは継続して公開します。
+> このリポジトリは移植完了に伴いアーカイブされています。
 # chat-log-plugin
 
 Claude Code とのセッション会話をMarkdownファイルに保存するプラグイン。
@@ -133,4 +133,5 @@ MIT License
 
 作成日: 2025-01-25  
 最終更新日: 2026-02-03  
+
 
